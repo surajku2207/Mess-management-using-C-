@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 56px;
+    background-color: #2874f0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 175px
+}
+.logo img{    
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-search{
+    background-color: #ffffff;
+    margin: 0px 10px;
+    border-radius: 3px;
+    width: 560px;
+}
+.nav-search input{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 0px 16px;
+    width: 490px;
+    height: 36px;
+}
+.nav-search i{
+    color: #2874f0;
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.user{
+    margin-left: 100px;
+    margin-right: 45px;
+    display: flex;
+    align-items: center;
+}
+.user i{
+    margin-left: 5px;
+    font-size: 0.6rem;
+}
+.more{
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+}
+.more i{
+    margin-left: 5px;
+    font-size: 0.6rem;
+}
+.cart{
+    margin-left: 45px;
+    display: flex;
+}
+.cart i{
+    margin-right: 5px;
+}
+.categories{
+    height: 131px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dbdde0;
+}
+.box{
+    color: #212121;
+    padding: 12px 8px;
+    margin: 0px 12px;
+    display: block;
+    text-align: center;
+}
+.box img{
+    height: 64px;
+    width: 64px;
+}
+.hero{
+    height: 700px;
+    background-color: #f1f3f6;
+}
+.hero-image{
+    background-image: url("hero.webp");
+    height: 280px;
+    background-size: cover;
+    margin: 10px;
+}
+.hero-best{
+    margin-top: 10px;
+    height: 332px;
+    background-color: #ffffff;
+    color: #212121;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero-electronics{
+    width: 230px;
+    text-align: center;
+}
+.electronics-text{
+    padding: 28px 10px 70px 10px;
+    display: grid;
+    place-items: center;
+}
+.hero-electronics h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.view{
+    height: 38px;
+    width: 96px;
+    background-color: #2874f0;
+    border-radius: 2px;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+}
+.hero-electronics img{
+    width: 230px;
+    
+}
+.best-box{
+    padding: 25px 15px;
+    border: 1px solid rgb(187, 181, 181);
+    border-radius: 4px;
+}
+.box-img{
+    height: 200px;
+    width: 200px;
+}
+.box-type{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+}
+.box-price{
+    font-size: 16px;
+    font-weight: 300;
+    color: #388E3C;
+    margin-top: 8px;
+    text-align: center;
+}
+.box-brand{
+    font-size: 14px;
+    font-weight: 100;
+    color: #9e9e9e;
+    margin-top: 8px;
+    text-align: center;
+}
+.ad img{
+    height: 332px;
+}
+.footer{
+    height: 333px;
+    background-color: #212121;
+    color: white;
+}
+.footer1{
+    padding-top: 45px; 
+    padding-bottom: 50px; 
+    display: flex;
+    border-bottom: 1px solid rgb(156, 156, 156);
+}
+.footer-link{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    border-right: 1px solid rgb(211, 206, 230);
+}
+.footer-link h5{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.footer-link p{
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.footer-link p:hover{
+    border-bottom: 1px solid white;
+
+}
+.footer-add{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.footer-add h5{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.footer-add p{
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+.footer-mail{
+    margin-left: 35px;
+}
+.footer-address{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.footer-address span{
+    color: #2874f0;
+}
+.footer2{
+    display: flex;
+}
+.footer-down{
+    margin-top: 15px;
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+}
+.footer-down p{
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+.footer-down p i{
+    color: goldenrod;
+    margin-right: 8px;
+}
+.footer-card{
+    width: 30%;
+    margin-top: 15px;
+}
